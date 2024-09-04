@@ -1,0 +1,447 @@
+[
+    {
+      "model": "api.Customer",
+      "pk": 1,
+      "fields": {
+        "name": "John Doe",
+        "phone": "555-1234"
+      }
+    },
+    {
+      "model": "api.Customer",
+      "pk": 2,
+      "fields": {
+        "name": "Jane Smith",
+        "phone": "555-5678"
+      }
+    },
+    {
+      "model": "api.Customer",
+      "pk": 3,
+      "fields": {
+        "name": "Bob Johnson",
+        "phone": "555-9012"
+      }
+    },
+    {
+      "model": "api.Customer",
+      "pk": 4,
+      "fields": {
+        "name": "Alice Brown",
+        "phone": "555-3456"
+      }
+    },
+    {
+      "model": "api.Customer",
+      "pk": 5,
+      "fields": {
+        "name": "Charlie Davis",
+        "phone": "555-7890"
+      }
+    },
+    {
+      "model": "api.Customer",
+      "pk": 6,
+      "fields": {
+        "name": "Eva Wilson",
+        "phone": "555-2345"
+      }
+    },
+    {
+      "model": "api.Customer",
+      "pk": 7,
+      "fields": {
+        "name": "Frank Miller",
+        "phone": "555-6789"
+      }
+    },
+    {
+      "model": "api.Customer",
+      "pk": 8,
+      "fields": {
+        "name": "Grace Taylor",
+        "phone": "555-0123"
+      }
+    },
+    {
+      "model": "api.Customer",
+      "pk": 9,
+      "fields": {
+        "name": "Henry Clark",
+        "phone": "555-4567"
+      }
+    },
+    {
+      "model": "api.Customer",
+      "pk": 10,
+      "fields": {
+        "name": "Ivy Martinez",
+        "phone": "555-8901"
+      }
+    },
+    {
+      "model": "api.Room",
+      "pk": 1,
+      "fields": {
+        "name": "Single Room 101",
+        "night_price": "50.00"
+      }
+    },
+    {
+      "model": "api.Room",
+      "pk": 2,
+      "fields": {
+        "name": "Double Room 201",
+        "night_price": "80.00"
+      }
+    },
+    {
+      "model": "api.Room",
+      "pk": 3,
+      "fields": {
+        "name": "Suite 301",
+        "night_price": "120.00"
+      }
+    },
+    {
+      "model": "api.Room",
+      "pk": 4,
+      "fields": {
+        "name": "Family Room 401",
+        "night_price": "150.00"
+      }
+    },
+    {
+      "model": "api.Room",
+      "pk": 5,
+      "fields": {
+        "name": "Penthouse 501",
+        "night_price": "200.00"
+      }
+    },
+    {
+      "model": "api.Reservation",
+      "pk": 1,
+      "fields": {
+        "customer": 1,
+        "room": 1,
+        "start_date": "2024-09-01",
+        "end_date": "2024-09-03",
+        "total_price": "100.00",
+        "checked_in": "2024-09-01T14:00:00Z",
+        "checked_out": "2024-09-03T11:00:00Z"
+      }
+    },
+    {
+      "model": "api.Reservation",
+      "pk": 2,
+      "fields": {
+        "customer": 2,
+        "room": 2,
+        "start_date": "2024-09-05",
+        "end_date": "2024-09-08",
+        "total_price": "240.00",
+        "checked_in": "2024-09-05T15:00:00Z",
+        "checked_out": "2024-09-08T10:30:00Z"
+      }
+    },
+    {
+      "model": "api.Reservation",
+      "pk": 3,
+      "fields": {
+        "customer": 3,
+        "room": 3,
+        "start_date": "2024-09-10",
+        "end_date": "2024-09-15",
+        "total_price": "600.00",
+        "checked_in": "2024-09-10T16:00:00Z",
+        "checked_out": null
+      }
+    },
+    {
+      "model": "api.Reservation",
+      "pk": 4,
+      "fields": {
+        "customer": 4,
+        "room": 4,
+        "start_date": "2024-09-20",
+        "end_date": "2024-09-25",
+        "total_price": "750.00",
+        "checked_in": null,
+        "checked_out": null
+      }
+    },
+    {
+      "model": "api.Reservation",
+      "pk": 5,
+      "fields": {
+        "customer": 5,
+        "room": 5,
+        "start_date": "2024-10-01",
+        "end_date": "2024-10-05",
+        "total_price": "800.00",
+        "checked_in": null,
+        "checked_out": null
+      }
+    },
+    {
+      "model": "api.Reservation",
+      "pk": 6,
+      "fields": {
+        "customer": 6,
+        "room": 1,
+        "start_date": "2024-09-15",
+        "end_date": "2024-09-18",
+        "total_price": "150.00",
+        "checked_in": "2024-09-15T14:30:00Z",
+        "checked_out": "2024-09-18T11:15:00Z"
+      }
+    },
+    {
+      "model": "api.Reservation",
+      "pk": 7,
+      "fields": {
+        "customer": 7,
+        "room": 2,
+        "start_date": "2024-09-20",
+        "end_date": "2024-09-22",
+        "total_price": "160.00",
+        "checked_in": "2024-09-20T15:45:00Z",
+        "checked_out": null
+      }
+    },
+    {
+      "model": "api.Reservation",
+      "pk": 8,
+      "fields": {
+        "customer": 8,
+        "room": 3,
+        "start_date": "2024-09-25",
+        "end_date": "2024-09-28",
+        "total_price": "360.00",
+        "checked_in": null,
+        "checked_out": null
+      }
+    },
+    {
+      "model": "api.Reservation",
+      "pk": 9,
+      "fields": {
+        "customer": 9,
+        "room": 4,
+        "start_date": "2024-10-05",
+        "end_date": "2024-10-10",
+        "total_price": "750.00",
+        "checked_in": null,
+        "checked_out": null
+      }
+    },
+    {
+      "model": "api.Reservation",
+      "pk": 10,
+      "fields": {
+        "customer": 10,
+        "room": 5,
+        "start_date": "2024-10-15",
+        "end_date": "2024-10-20",
+        "total_price": "1000.00",
+        "checked_in": null,
+        "checked_out": null
+      }
+    },
+    {
+      "model": "api.Reservation",
+      "pk": 11,
+      "fields": {
+        "customer": 1,
+        "room": 2,
+        "start_date": "2024-10-01",
+        "end_date": "2024-10-03",
+        "total_price": "160.00",
+        "checked_in": null,
+        "checked_out": null
+      }
+    },
+    {
+      "model": "api.Reservation",
+      "pk": 12,
+      "fields": {
+        "customer": 2,
+        "room": 3,
+        "start_date": "2024-10-05",
+        "end_date": "2024-10-08",
+        "total_price": "360.00",
+        "checked_in": null,
+        "checked_out": null
+      }
+    },
+    {
+      "model": "api.Reservation",
+      "pk": 13,
+      "fields": {
+        "customer": 3,
+        "room": 4,
+        "start_date": "2024-10-12",
+        "end_date": "2024-10-15",
+        "total_price": "450.00",
+        "checked_in": null,
+        "checked_out": null
+      }
+    },
+    {
+      "model": "api.Reservation",
+      "pk": 14,
+      "fields": {
+        "customer": 4,
+        "room": 5,
+        "start_date": "2024-10-22",
+        "end_date": "2024-10-25",
+        "total_price": "600.00",
+        "checked_in": null,
+        "checked_out": null
+      }
+    },
+    {
+      "model": "api.Reservation",
+      "pk": 15,
+      "fields": {
+        "customer": 5,
+        "room": 1,
+        "start_date": "2024-10-05",
+        "end_date": "2024-10-07",
+        "total_price": "100.00",
+        "checked_in": null,
+        "checked_out": null
+      }
+    },
+    {
+      "model": "api.Reservation",
+      "pk": 16,
+      "fields": {
+        "customer": 6,
+        "room": 2,
+        "start_date": "2024-10-10",
+        "end_date": "2024-10-12",
+        "total_price": "160.00",
+        "checked_in": null,
+        "checked_out": null
+      }
+    },
+    {
+      "model": "api.Reservation",
+      "pk": 17,
+      "fields": {
+        "customer": 7,
+        "room": 3,
+        "start_date": "2024-10-15",
+        "end_date": "2024-10-18",
+        "total_price": "360.00",
+        "checked_in": null,
+        "checked_out": null
+      }
+    },
+    {
+      "model": "api.Reservation",
+      "pk": 18,
+      "fields": {
+        "customer": 8,
+        "room": 4,
+        "start_date": "2024-10-20",
+        "end_date": "2024-10-23",
+        "total_price": "450.00",
+        "checked_in": null,
+        "checked_out": null
+      }
+    },
+    {
+      "model": "api.Reservation",
+      "pk": 19,
+      "fields": {
+        "customer": 9,
+        "room": 5,
+        "start_date": "2024-10-28",
+        "end_date": "2024-10-31",
+        "total_price": "600.00",
+        "checked_in": null,
+        "checked_out": null
+      }
+    },
+    {
+      "model": "api.Reservation",
+      "pk": 20,
+      "fields": {
+        "customer": 10,
+        "room": 1,
+        "start_date": "2024-10-10",
+        "end_date": "2024-10-12",
+        "total_price": "100.00",
+        "checked_in": null,
+        "checked_out": null
+      }
+    },
+    {
+      "model": "api.Reservation",
+      "pk": 21,
+      "fields": {
+        "customer": 1,
+        "room": 3,
+        "start_date": "2024-10-20",
+        "end_date": "2024-10-23",
+        "total_price": "360.00",
+        "checked_in": null,
+        "checked_out": null
+      }
+    },
+    {
+      "model": "api.Reservation",
+      "pk": 22,
+      "fields": {
+        "customer": 2,
+        "room": 4,
+        "start_date": "2024-10-25",
+        "end_date": "2024-10-28",
+        "total_price": "450.00",
+        "checked_in": null,
+        "checked_out": null
+      }
+    },
+    {
+      "model": "api.Reservation",
+      "pk": 23,
+      "fields": {
+        "customer": 3,
+        "room": 5,
+        "start_date": "2024-11-01",
+        "end_date": "2024-11-05",
+        "total_price": "800.00",
+        "checked_in": null,
+        "checked_out": null
+      }
+    },
+    {
+      "model": "api.Reservation",
+      "pk": 24,
+      "fields": {
+        "customer": 4,
+        "room": 1,
+        "start_date": "2024-10-15",
+        "end_date": "2024-10-17",
+        "total_price": "100.00",
+        "checked_in": null,
+        "checked_out": null
+      }
+    },
+    {
+      "model": "api.Reservation",
+      "pk": 25,
+      "fields": {
+        "customer": 5,
+        "room": 2,
+        "start_date": "2024-10-18",
+        "end_date": "2024-10-20",
+        "total_price": "160.00",
+        "checked_in": null,
+        "checked_out": null
+      }
+    }
+  ]
