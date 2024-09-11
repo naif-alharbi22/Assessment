@@ -1,6 +1,13 @@
-# Getting Started
+# JARAS Assessment
 
-First things first, Welcome Onboard 👋, in this project we are trying to make you familiar with the main technologies that we use and main parts of our solution, please don't hesitate to reach out to any team member if you face any issues, have any questions or want to improve this repo.
+Welcome aboard, fellow developer! 🌟
+
+We're thrilled to have you join our team and can't wait to see the incredible
+things you'll achieve with us. This is the start of an exciting journey where
+you'll learn, grow, and make a real impact.
+
+Remember, we're all here to support you every step of the way. Don’t hesitate
+to ask questions, share ideas, and dive into new challenges.
 
 ## 📚 Stack
 
@@ -8,12 +15,6 @@ First things first, Welcome Onboard 👋, in this project we are trying to make 
 - [Django](https://www.djangoproject.com/) - Django makes it easier to build better web apps more quickly and with less code.
 - [Typescript](https://www.typescriptlang.org/) - JavaScript with syntax for types.
 - [Docker](https://www.docker.com/) - Docker is a platform designed to help developers build, share, and run modern applications. We handle the tedious setup, so you can focus on the code.
-
-  ## 📸 Screenshots:
-
-- Frontend:
-
-- Backend:
 
 ## ✅ System Requirements
 
@@ -27,10 +28,11 @@ First things first, Welcome Onboard 👋, in this project we are trying to make 
 
 ### Backend Requirements
 
-- [ ] Customer Model: A model to represent customers (e.g., name, nationality, mobile).
-- [ ] Room Model: A model to represent room details within a hotel (e.g., room type, price).
-- [ ] Reservation Model: A model to manage reservations (e.g., customer details, booking dates, payment status).
-- [ ] API Endpoints: RESTful API endpoints for CRUD operations on the models using Django REST framework.
+- [ ] after cloning the project create a python virtual environment and install requirements.txt.
+- [ ] search the entire project for 'TODO: ` and follow them in order.
+- [ ] after each finished todo try to run the tests with pytest like:
+      `$ pytest`
+      or if you are using vscode just head to the testing tab and run them from there.
 
 ### Frontend Requirements
 
