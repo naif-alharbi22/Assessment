@@ -1,0 +1,20 @@
+Welcome aboard, fellow developer! 🌟
+
+We're thrilled to have you join our team and can't wait to see the incredible
+things you'll achieve with us. This is the start of an exciting journey where
+you'll learn, grow, and make a real impact.
+
+Remember, we're all here to support you every step of the way. Don’t hesitate
+to ask questions, share ideas, and dive into new challenges.
+
+TODO: 0
+search the entire project for 'TODO: ` and follow them in order.
+
+after each finished todo try to run the tests with pytest like:
+$ pytest
+or if you are using vscode just head to the testing tab and run them from there.
+
+Happy coding!
+
+TODO: 1
+after cloning the project create a python virtual environment and install requirements.txt

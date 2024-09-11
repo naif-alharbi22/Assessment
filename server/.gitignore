@@ -2,3 +2,7 @@
 __pycache__
 static/
 migrations/
+.venv/
+.kolo/
+.ruff_cache/
+.pytest_cache/
