@@ -28,8 +28,8 @@ to ask questions, share ideas, and dive into new challenges.
 
 ### Backend Requirements
 
-- [ ] after cloning the project create a python virtual environment and install requirements.txt.
-- [ ] search the entire project for 'TODO: ` and follow them in order.
+- [x] after cloning the project create a python virtual environment and install requirements.txt.
+- [x] search the entire project for 'TODO: ` and follow them in order.
 - [ ] after each finished todo try to run the tests with pytest like:
       `$ pytest`
       or if you are using vscode just head to the testing tab and run them from there.
