@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\naifn\Documents\assessment\jaras_job\Assessment\server\venv
+set VIRTUAL_ENV=C:\Users\PCD\Documents\python\jaras-job\Assessment\server\venv
 
 if not defined PROMPT set PROMPT=$P$G
 

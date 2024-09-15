@@ -40,7 +40,7 @@ class CustomersViewSet(viewsets.ModelViewSet):
     def reservations(self , request , pk=None):
         reservation = Reservation.objects.filter(customer_id = pk)
         serializer = ReservationSerializer(reservation, many=True)
-        
+        print(serializer.data)
         return Response(serializer.data)
         
         

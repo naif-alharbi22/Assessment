@@ -7,20 +7,24 @@ from .models import Customer, Reservation, Room
 
 # model Customer
 class CustomerSerializer(serializers.ModelSerializer):
-    class Mete:
+    class Meta:
         model = Customer
         fields = '__all__'
 
 
-# model Reservation
-class ReservationSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Reservation
-        fields = '__all__'
-        
+
 # model Room 
 class RoomSerializer(serializers.ModelSerializer):
+    
     class Meta:
         model = Room
+        fields = '__all__'
+        
+# model Reservation
+class ReservationSerializer(serializers.ModelSerializer):
+    customer = CustomerSerializer()
+    room = RoomSerializer()
+    class Meta:
+        model = Reservation
         fields = '__all__'
         
