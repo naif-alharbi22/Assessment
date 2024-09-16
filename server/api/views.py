@@ -6,7 +6,7 @@ from rest_framework.decorators import action
 from rest_framework.response import Response
 from .models import Customer, Reservation, Room
 from datetime import datetime
-from .serializers import CustomerSerializer, ReservationSerializer, RoomSerializer
+from .serializers import CustomerSerializer, ReservationSerializer, RoomSerializer , ReservationWriteSerializer
 
 
 # TODO: 3
@@ -78,7 +78,11 @@ class ReservationsViewSet(viewsets.ModelViewSet):
 
         total_revenue = checked_out_reservations.aggregate(total=Sum('price'))['total'] or 0
         return Response({"total_revenue": total_revenue})
-
+    
+class ReservationCreateUpdateViewSet(viewsets.ModelViewSet):
+    queryset = Reservation.objects.all()
+    serializer_class = ReservationWriteSerializer
+    
 # TODO: 5
 # Create a new class RoomsViewSet.
 # Set the queryset attribute to fetch all Room objects.
@@ -127,7 +131,7 @@ class RoomsViewSet(viewsets.ModelViewSet):
         return Response(serializer.data)
     @action(detail=False, methods=['get'], url_path='available')
     def available(self, request):
-        #get date 
+        
         start_date_str = request.query_params.get('start_date')
         end_date_str = request.query_params.get('end_date')
         if not start_date_str or not end_date_str:

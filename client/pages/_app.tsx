@@ -9,25 +9,27 @@ function MyApp({ Component, pageProps }: AppProps) {
     <ChakraProvider theme={customTheme}>
        
       {/* Navigation Bar */}
-      <nav style={{ padding: '10px', backgroundColor: '#f5f5f5' }}>
-        <ul style={{ listStyle: 'none', display: 'flex', gap: '20px' }}>
+      <nav className="bg-gray-100 py-4">
+      <div className="container mx-auto">
+        <ul className="flex justify-center space-x-6">
           <li>
             <Link href="/">
-              <a>Home</a>
+              <a className="text-gray-700 font-semibold hover:text-blue-500 transition-colors">Home</a>
             </Link>
           </li>
           <li>
             <Link href="/customers">
-              <a>customers</a>
+              <a className="text-gray-700 font-semibold hover:text-blue-500 transition-colors">Customers</a>
             </Link>
           </li>
           <li>
             <Link href="/Reservations">
-              <a>Reservations </a>
+              <a className="text-gray-700 font-semibold hover:text-blue-500 transition-colors">Reservations</a>
             </Link>
           </li>
         </ul>
-      </nav>
+      </div>
+    </nav>
 
       <Component {...pageProps} />
     </ChakraProvider>

@@ -18,29 +18,29 @@ to ask questions, share ideas, and dive into new challenges.
 
 ## ✅ System Requirements
 
-- [ ] Docker: [Install Docker](https://docs.docker.com/get-docker/)
-- [ ] Node.js: [Install Node.js](https://nodejs.org/en/download/)
-- [ ] Python: [Install Python](https://www.python.org/downloads/)
-- [ ] Typescript: [Install Typescript](https://www.typescriptlang.org/download)
-- [ ] Git: [Install Git](https://git-scm.com/downloads)
-- [ ] VS Code: [Install VS Code](https://code.visualstudio.com/download)
-- [ ] Gitlab Account: [Create Gitlab Account](https://git.ajjir.co/users/sign_in)
+- [x] Docker: [Install Docker](https://docs.docker.com/get-docker/)
+- [x] Node.js: [Install Node.js](https://nodejs.org/en/download/)
+- [x] Python: [Install Python](https://www.python.org/downloads/)
+- [x] Typescript: [Install Typescript](https://www.typescriptlang.org/download)
+- [x] Git: [Install Git](https://git-scm.com/downloads)
+- [x] VS Code: [Install VS Code](https://code.visualstudio.com/download)
+- [x] Gitlab Account: [Create Gitlab Account](https://git.ajjir.co/users/sign_in)
 
 ### Backend Requirements
 
 - [x] after cloning the project create a python virtual environment and install requirements.txt.
 - [x] search the entire project for 'TODO: ` and follow them in order.
-- [ ] after each finished todo try to run the tests with pytest like:
+- [x] after each finished todo try to run the tests with pytest like:
       `$ pytest`
       or if you are using vscode just head to the testing tab and run them from there.
 
 ### Frontend Requirements
 
-- [ ] Customers List Page: A page to display a list of customers
-- [ ] Customer Form: a form to add a new customer
-- [ ] Reservations List: A page to display a list of hotel reservations
-- [ ] Reservation Form: A form to book a room, selecting customer, room and reservation details.
-- [ ] API Integration: Integrate frontend components with backend API endpoints.
+- [x] Customers List Page: A page to display a list of customers
+- [x] Customer Form: a form to add a new customer
+- [x] Reservations List: A page to display a list of hotel reservations
+- [x] Reservation Form: A form to book a room, selecting customer, room and reservation details.
+- [x] API Integration: Integrate frontend components with backend API endpoints.
 
 ## 📁 Project structure
 
